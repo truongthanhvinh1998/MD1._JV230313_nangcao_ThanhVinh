@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Thong tin hoc vien</h1>
+
+    <form action="" id="form" class="form">
+      <label for="name">Ho va ten </label>
+      <input type="text" class="text" id="name" /><br />
+      <label for="email">Email</label>
+      <input type="text" class="text" id="email" /><br />
+      <label for="phoneNumber">So dien thoai</label>
+      <input type="text" class="text" id="numberPhone" /><br />
+      <label for="addr">que quan </label>
+      <input type="text" class="text" id="addr" /><br />
+      <label for="name">gioi tinh </label>
+      <input type="checkbox" id="gender" />Nam <input type="checkbox" />Nu<br />
+
+      <button id="btn01">Luu lai</button>
+    </form>
+
+    <div class="main">
+      <label for="">Tim Kiem Ten Hoc Vien </label>
+      <input type="text" />
+      <button>Seach</button>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Ho Va ten</th>
+            <th>Email</th>
+            <th>So dien thoai</th>
+            <th>Dia chi</th>
+            <th>gender</th>
+            <th>Hanh dong</th>
+            <th><button>Sap xep</button></th>
+          </tr>
+        </thead>
+        <tbody id="container"></tbody>
+      </table>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
